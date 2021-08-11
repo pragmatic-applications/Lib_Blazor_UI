@@ -8,7 +8,7 @@
 // Stop: 16:00
 //=================================================================
 
-// Lib_Blazor_UI NuGet <Version>0.0.0.2</Version>
+// Update NuGet licence Key Expression form MIT licence to MIT, it seems that spaces are not allowed.
 
 /*
 

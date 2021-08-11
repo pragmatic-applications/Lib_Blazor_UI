@@ -7,7 +7,7 @@
         <RepositoryUrl>https://github.com/pragmatic-applications/Lib_Blazor_UI</RepositoryUrl>
         <Authors>Maurice Antonio Kelly @MAKMaurice</Authors>
         <Company>Pragmatic Applications</Company>
-        <PackageLicenseExpression>MIT Licence</PackageLicenseExpression>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
         <Description>A .NET 5.0 (Blazor) Razor Class Library</Description>
         <PackageReleaseNotes>A .NET 5.0 (Blazor) Razor Class Library</PackageReleaseNotes>
         <PackageTags>.NET 5.0 (Blazor) Razor Class Library</PackageTags>
