@@ -4,20 +4,15 @@
         <TargetFramework>net5.0</TargetFramework>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <Version>0.0.0.2</Version>
-
-
-        <!--<Authors>Maurice Antonio Kelly @MAKMaurice</Authors>
+        <RepositoryUrl>https://github.com/pragmatic-applications/Lib_Blazor_UI</RepositoryUrl>
+        <Authors>Maurice Antonio Kelly @MAKMaurice</Authors>
         <Company>Pragmatic Applications</Company>
+        <PackageLicenseExpression>MIT Licence</PackageLicenseExpression>
+        <Description>A .NET 5.0 (Blazor) Razor Class Library</Description>
+        <PackageReleaseNotes>A .NET 5.0 (Blazor) Razor Class Library</PackageReleaseNotes>
+        <PackageTags>.NET 5.0 (Blazor) Razor Class Library</PackageTags>
+        <RepositoryType>A .NET 5.0 (Blazor) Razor Class Library</RepositoryType>
         <Copyright>Pragmatic Applications - Maurice Antonio Kelly @MAKMaurice</Copyright>
-        <Description>A .NET 5.0 Generic CRUD Interface Library</Description>
-        <PackageReleaseNotes>A .NET 5.0 Generic CRUD Interface Library</PackageReleaseNotes>
-        <Version>0.0.0.2</Version>
-        <PackageLicenseExpression>MIT</PackageLicenseExpression>
-        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-        <PackageTags>A .NET 5.0 Generic CRUD Interface Library</PackageTags>
-        <RepositoryType>A .NET 5.0 Library</RepositoryType>
-        <RepositoryUrl>https://github.com/pragmatic-applications/Lib_Generic_Crud_Interface</RepositoryUrl>-->
-
     </PropertyGroup>
 
     <ItemGroup>

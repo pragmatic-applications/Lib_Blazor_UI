@@ -5,6 +5,12 @@ VisualStudioVersion = 16.0.31515.178
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lib_Blazor_UI", "Lib_Blazor_UI\Lib_Blazor_UI.csproj", "{428DB2FB-CE7C-402D-84BC-D79D9DA7734F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AFC805D6-07CB-48BE-A5A3-60876F210F7E}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		docs\Record.cs = docs\Record.cs
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
