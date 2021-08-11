@@ -1,0 +1,41 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Razor">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <Version>0.0.0.2</Version>
+
+
+        <!--<Authors>Maurice Antonio Kelly @MAKMaurice</Authors>
+        <Company>Pragmatic Applications</Company>
+        <Copyright>Pragmatic Applications - Maurice Antonio Kelly @MAKMaurice</Copyright>
+        <Description>A .NET 5.0 Generic CRUD Interface Library</Description>
+        <PackageReleaseNotes>A .NET 5.0 Generic CRUD Interface Library</PackageReleaseNotes>
+        <Version>0.0.0.2</Version>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <PackageTags>A .NET 5.0 Generic CRUD Interface Library</PackageTags>
+        <RepositoryType>A .NET 5.0 Library</RepositoryType>
+        <RepositoryUrl>https://github.com/pragmatic-applications/Lib_Generic_Crud_Interface</RepositoryUrl>-->
+
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Lib_Core_Interface" Version="1.0.0" />
+      <PackageReference Include="Lib_Http_Feature" Version="0.0.0.1" />
+      <PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="5.0.8" />
+      <PackageReference Include="Microsoft.AspNetCore.Components.Web.Extensions" Version="5.0.0-preview9.20513.1" />
+      <PackageReference Include="Microsoft.AspNetCore.Http.Features" Version="5.0.8" />
+      <PackageReference Include="System.Net.Http.Json" Version="5.0.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <SupportedPlatform Include="browser" />
+    </ItemGroup>
+
+    <!--<ItemGroup>
+        <PackageReference Include="Microsoft.AspNet.WebApi.Client" Version="5.2.7" />
+        <PackageReference Include="Microsoft.AspNetCore.WebUtilities" Version="2.2.0" />
+    </ItemGroup>-->
+
+</Project>
