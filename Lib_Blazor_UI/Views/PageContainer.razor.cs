@@ -6,9 +6,8 @@ using PageFeatures;
 
 namespace Lib_Blazor_UI.Views
 {
-    public partial class PageContainer
+    public partial class PageContainer : Component
     {
-        [Parameter] public RenderFragment ChildContent { get; set; }
         [Parameter] public List<PageLink> NavLinks { get; set; }
 
         //[Inject] public NavigationJSI NavigationJSI { get; set; }

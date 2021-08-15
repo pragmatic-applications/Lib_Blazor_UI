@@ -1,6 +1,8 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
 
+using Constants;
+
 using Microsoft.AspNetCore.Components;
 
 using PageFeatures;
@@ -10,7 +12,7 @@ namespace Lib_Blazor_UI.Views
     public partial class Pagination : ComponentBase
     {
         [CascadingParameter(Name = "PagerDataValue")] public PagerData PagerData { get; set; }
-        [CascadingParameter(Name = "SpreadValue")] public int Spread { get; set; }
+        [CascadingParameter(Name = nameof(CascadingData.SpreadValue))] public int Spread { get; set; }
 
         [Parameter] public EventCallback<int> OnSelectedPage { get; set; }
         private List<PagingLink> links;

@@ -1,7 +1,14 @@
-﻿namespace Lib_Blazor_UI.Views
+﻿using Constants;
+
+using Microsoft.AspNetCore.Components;
+
+namespace Lib_Blazor_UI.Views
 {
     public partial class Banner : CoreComponent
     {
+        [CascadingParameter(Name = nameof(CascadingData.BannerBackgroundImageCssClassParameterValue))]
+        public string BannerBackgroundImageCssClassCascadingParameter { get; set; }
+
         protected override void OnParametersSet()
         {
             base.OnParametersSet();

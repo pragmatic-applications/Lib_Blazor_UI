@@ -46,14 +46,6 @@ namespace Lib_Blazor_UI
             this.IsError = false;
         }
 
-        //// NN ??
-        //protected virtual void LoadDataSuccess<TDto>(PagingResponse<TDto> data) where TDto : class
-        //{
-        //    this.IsLoading = false;
-        //    this.IsError = false;
-        //}
-        //// NN ??
-
         protected virtual Task TryLoadAsync(Action<PagingResponse<TEntity>> success, Action<Exception> fail) => Task.FromResult(default(object));
 
         protected virtual void LoadEntityCategoryDataSuccess(List<TEntityCategory> data)

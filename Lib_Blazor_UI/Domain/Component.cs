@@ -1,9 +1,4 @@
-﻿
-using Constants;
-
-using Interfaces;
-
-using Microsoft.AspNetCore.Components;
+﻿using Microsoft.AspNetCore.Components;
 
 using PageFeatures;
 
@@ -29,16 +24,6 @@ namespace Lib_Blazor_UI
         public string CurrentTitle { get; set; } = string.Empty;
         public string PageToNavigateTo { get; set; } = string.Empty;
 
-        public ISelect SelectParameterValue { get; set; }
-        [Parameter] public ISelect SelectParameter { get; set; }
-        public ISelect ItemSelect { get; set; }
-
-
-        public string PositionCssClass { get; set; }
-        public string PositionCssClassParameterValue { get; set; }
-        [Parameter] public string PositionCssClassParameter { get; set; }
-
-        [Parameter] public int SpreadParameter { get; set; }
         [Parameter] public PagerData PagerDataParameter { get; set; }
 
         [Parameter] public string AdminTitleParameter { get; set; }
@@ -54,7 +39,6 @@ namespace Lib_Blazor_UI
         [Parameter] public string TitleParameter { get; set; }
 
         public string HeadTitleValue { get; set; }
-        public int SpreadValue { get; set; }
 
         [Parameter] public string BannerTitleParameter { get; set; }
         public string BannerTitleValue { get; set; }

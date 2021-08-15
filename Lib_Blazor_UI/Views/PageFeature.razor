@@ -1,15 +1,9 @@
 ﻿@inherits CoreComponent
 
 <div class="container">
-    <CascadingValue Value="@this.SpreadValue" Name="@nameof(this.SpreadValue)" IsFixed="true">
-        <CascadingValue Value="@this.PagerDataValue" Name="@nameof(this.PagerDataValue)">
-            <CascadingValue Value="@this.SelectParameterValue" Name="@nameof(this.SelectParameterValue)">
-                <CascadingValue Value="@this.PositionCssClassParameterValue" Name="@nameof(this.PositionCssClassParameterValue)">
-                    <Search OnSearchChanged="@this.OnSearchChanged" />
-                    <Sort OnSortChanged="@this.OnSortChanged" />
-                    <Pagination OnSelectedPage="@this.OnSelectedPage" />
-                </CascadingValue>
-            </CascadingValue>
-        </CascadingValue>
+    <CascadingValue Value="@this.PagerDataValue" Name="@nameof(this.PagerDataValue)">
+        <Search OnSearchChanged="@this.OnSearchChanged" />
+        <Sort OnSortChanged="@this.OnSortChanged" />
+        <Pagination OnSelectedPage="@this.OnSelectedPage" />
     </CascadingValue>
 </div>
